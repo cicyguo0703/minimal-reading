@@ -1,4 +1,3 @@
-import React from "react";
 import type { Book } from "../types";
 
 export function BookCard({ book, onOpen }: { book: Book; onOpen: (b: Book) => void }) {

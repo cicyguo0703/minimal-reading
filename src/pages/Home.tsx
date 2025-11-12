@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Book } from "../types";
 import { fetchBooksFromAI } from "../api";
 import { BookCard } from "../components/BookCard";
